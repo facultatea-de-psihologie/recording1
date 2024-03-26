@@ -6,7 +6,7 @@ if(isButtonDisabled){
 }
 
 button.addEventListener("click", () =>{
-    const audio = new Audio("./audio/words1.mp3");
+    const audio = new Audio("./audio/words.mp3");
     audio.play();
     button.disabled = "true";
 
